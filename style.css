@@ -1,0 +1,96 @@
+body {
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    position: relative;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {}
+
+.logotext {
+    text-align: center;
+    margin: 0;
+    color: lime;
+    line-height: 45px;
+}
+
+.backgroundblack {
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 25px;
+    height: 650px;
+    width: 1000px;
+    padding-top: 5%;
+}
+
+.fontcolormain {
+    color: white;
+    position: relative;
+    left: 7%
+}
+
+nav {
+    background-color: lime;
+    width: 800px;
+    position: relative;
+    left: 7%;
+    height: 38px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    max-height: 30px;
+}
+
+input {
+    display: inline-block;
+}
+
+.name {
+    display: inline-block;
+    line-height: 3px;
+}
+
+.via {
+    display: block;
+}
+
+.lineone {
+    background-color: #f5b453;
+    width: 500px;
+    height: 35px;
+    display: block;
+    border-radius: 7px;
+}
+
+.linetwo {
+    background-color: #1ec31e;
+    width: 750px;
+    height: 35px;
+    display: block;
+    border-radius: 7px;
+}
+
+.linethree {
+    background-color: #be4141;
+    width: 250px;
+    height: 35px;
+    display: block;
+    border-radius: 7px;
+}
